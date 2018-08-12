@@ -1,0 +1,38 @@
+$primary: #006699;
+
+h2 {
+	color: $primary;
+}
+.songList{
+	padding-top: 100px;
+}
+.songBlock{
+	width: 100px;
+	height: 40px;
+	padding: 5px;
+	border: 1px solid #d88fc4;
+	color: white;
+	float:left;
+	background-color: #823a6f;
+}
+.songBlockContent{
+	float: left;
+}
+.songBlockDelete{
+	position: absolute;
+}
+.songs{
+	margin-top: 150px;
+}
+.addSong{
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	z-index: 1000;
+	padding: 10px;
+}
+.save{
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+}

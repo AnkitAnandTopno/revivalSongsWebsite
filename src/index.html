@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React Webpack</title>
+</head>
+<body>
+
+    <div id="root"></div>
+    <script src="js/bundle.min.js"></script>
+
+    <script src="js/kurti2uni.js"></script>
+    <script>
+      document.getElementsByClassName("checkHindi").onchange = function(){
+        console.log("changed ANkit");
+        document.getElementsByClassName("lyricsInput").value = convert_to_unicode(document.getElementByClassName("lyricsInput").value);
+        document.getElementsByClassName("songNameInput").value = convert_to_unicode(document.getElementByClassName("songNameInput").value);
+      };
+    </script>
+</body>
+</html>
